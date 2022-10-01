@@ -1,0 +1,107 @@
+/*Barra de Nvegacion*/
+body{
+    background-image: url(https://fondosmil.com/fondo/34255.jpg);
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border: 2px solid orange;
+    padding: 16px 16px;
+    border-radius: 22px;
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    border: 2px solid orange;
+    border-radius: 22px;
+    background-color: black;
+}
+
+li a{
+    display: black;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/* Cintenedor para secciones */
+
+.contenedor {
+    
+    margin: 0 auto 0 auto;
+}
+
+.seccion {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.columna{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.imagen{
+    size: 150px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+/*contenedor de la seccion 2*/
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.contenedor2 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagen-estirada{
+    width: 1500px;
+    height: 400px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.imagen1{
+    float: right;
+}
+
+.imagen2{
+    float: left;
+}
+
+
+
+
