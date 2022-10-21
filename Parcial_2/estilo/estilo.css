@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 750px;
+    background-image: url(/estilo/img/unknown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+nav{
+    align-items: center;
+}
+
+.m{
+    margin: 50px;
+}
+
+ul{
+    list-style-type: none;
+    z-index: 999;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start{
+    justify-content: right;
+}
+
+.menu-item a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+
+h1{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Contenedores*/
+
+.contenedor {
+    
+    margin: 0 auto 0 auto;
+}
+
+.seccion {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.columna{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.imagen{
+    size: 150px;
+    text-align: center;
+}
+
+.imagen-tamaño{
+    width: 250px;
+    height: 180px;
+}
+
+
+.hr-vertical{
+    height:25vh;
+    width:.2vw;
+    margin-left: 5px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+
+.linea {
+    border-top: 1px solid rgb(18, 97, 0);
+    height: 2px;
+    max-width: 90%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+.margen-izq{
+    margin-left: 220px;
+}
+
+.margen-drc{
+    margin-right: 220px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 1em 2em;
+    background: rgb(134, 119, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid rgb(150, 117, 104);
+    outline-offset: 3px;
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 46.3%;
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    background-color: rgb(231, 227, 227);
+  }
+
+p{
+    text-align: center;
+}
+
+.imagen-tamaño2{
+    width: 83.7%;
+    height: 83.7%;
+}
+
+.boton2{
+    display: inline-block;
+    padding: 1em 2em;
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: 3px;
+}
+
+.info-nombre{
+    margin-left: 250px;
+    float: left;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+    color: #000;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+}
+
+.info-email{
+    margin-top: 1%;
+    margin-right: 230px;
+    float: left;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+    color: #000;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+}
+
+.info-mas{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    float: right;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+    color: #000;
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+} 
+
+.margen-footer{
+    margin: 120px;
+}
+
+.titulo-footer{
+    text-align: center;
+}
+
+.margen-nombre{
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+.margen-nombre2{
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+
+.fondo-footer{
+    width: 100%;
+    height: 612px;
+    background-color: rgb(95, 235, 95);
+    background-size: cover;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+.posicion-boton{
+    margin-top: 1%;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid rgb(255, 255, 255);
+    outline-offset: 3px;
+}
+
+.margen-peque{
+    margin-left: 46%;
+}
+
+
+
+
+
+
